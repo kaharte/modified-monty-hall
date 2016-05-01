@@ -23,6 +23,8 @@ showed that it was not an ace, and asked if the guy wanted to change cards.
 Does this change the problem if the host selects an empty door without knowing
 whether or not it was empty beforehand?"""
 
+open('montyhall.txt', 'w').close()
+
 for i in range(0, 1000):
     import random
     f = open("montyhall.txt", "a")
