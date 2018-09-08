@@ -15,14 +15,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-"""I watched a video recently of a guy trying to explain the monty hall problem,
-but he explained it wrong. He put three playing cards on a table, one was an
-ace, and shuffled them. He had a person pick which one was the ace. Then
-*without looking at the other two cards* he flipped over one of the other two,
-showed that it was not an ace, and asked if the guy wanted to change cards.
-Does this change the problem if the host selects an empty door without knowing
-whether or not it was empty beforehand?"""
-
 open('montyhall.txt', 'w').close()
 
 for i in range(0, 1000):
